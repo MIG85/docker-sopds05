@@ -1,3 +1,6 @@
+
+Форкнуто и переделано на SOPDS 0.5
+
 https://github.com/ichbinkirgiz/sopds
 
 
