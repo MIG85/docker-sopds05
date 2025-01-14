@@ -1,6 +1,7 @@
 
 Форкнуто и переделано на SOPDS 0.5
 
+переделываю так как версия https://github.com/zveronline/docker-sopds на arm жутко тормозит (хотя свою я еще на больших библиотеках не тестил)
 работает на Apache2 mod_wsgi + postgres
 
 огромное спасибо https://github.com/ichbinkirgiz/sopds и https://github.com/zveronline/docker-sopds
