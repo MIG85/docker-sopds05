@@ -63,4 +63,4 @@ then
 python3 manage.py sopds_telebot start --daemon
 fi
 
-python3 manage.py sopds_server start & python3 manage.py sopds_scanner start
+/usr/sbin/httpd -f /etc/apache2/httpd.conf & python3 manage.py sopds_scanner start
