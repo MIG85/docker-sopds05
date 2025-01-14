@@ -1,6 +1,8 @@
 
 Форкнуто и переделано на SOPDS 0.5
 
+работает на Apache2 mod_wsgi + postgres
+
 огромное спасибо https://github.com/ichbinkirgiz/sopds и https://github.com/zveronline/docker-sopds
 
 # Introduction
