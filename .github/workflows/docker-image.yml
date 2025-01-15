@@ -6,11 +6,7 @@ on:
     branches:
       - master
 
-run: |
-  echo "IMAGE_LC=${IMAGE,,}" >>${GITHUB_ENV}
 env:
-  IMAGE: '${{ github.repository }}'
-
 #  IMAGE_NAME: ${{ secrets.DOCKER_HUB_REPOSITORY }}
    IMAGE_NAME: ${{ github.repository }}
 jobs:
@@ -53,5 +49,5 @@ jobs:
             linux/arm64
           file: ./Dockerfile
 #          tags: ${{ secrets.DOCKER_HUB_USERNAME }}/${{ secrets.DOCKER_HUB_REPOSITORY }}:latest
-          tags: ghcr.io/${{ env.IMAGE_LC }}:latest
+          tags: ghcr.io/${{ env.IMAGE_NAME }}:latest
           push: true
