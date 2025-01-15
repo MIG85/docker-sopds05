@@ -8,7 +8,8 @@ on:
 
 env:
 #  IMAGE_NAME: ${{ secrets.DOCKER_HUB_REPOSITORY }}
-   IMAGE_NAME: ${{ github.repository }}
+#   IMAGE_NAME: ${{ github.repository }}
+   IMAGE_NAME: mig85/docker-sopds05
 jobs:
   build-and-push:
     runs-on: ubuntu-latest
