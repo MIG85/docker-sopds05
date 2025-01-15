@@ -6,10 +6,10 @@ on:
     branches:
       - master
 
-  run: |
-    echo "IMAGE_LC=${IMAGE,,}" >>${GITHUB_ENV}
-  env:
-    IMAGE: '${{ github.repository }}'
+run: |
+  echo "IMAGE_LC=${IMAGE,,}" >>${GITHUB_ENV}
+env:
+  IMAGE: '${{ github.repository }}'
 
 env:
 #  IMAGE_NAME: ${{ secrets.DOCKER_HUB_REPOSITORY }}
